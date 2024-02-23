@@ -21,7 +21,7 @@ export const register = (data) => {
 };
 
 export const redirectLoginGoogle = () => {
-  return axios.get("http://hoangthao.site/public/api/login/google");
+  return axios.get("https://hoangthao.site/public/api/login/google");
 };
 
 export const googleCallback = (params) => {
