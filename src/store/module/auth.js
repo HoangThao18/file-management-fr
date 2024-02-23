@@ -68,6 +68,7 @@ const actions = {
 
   async redirectGoogleLoginAction() {
     const res = await redirectLoginGoogle();
+    console.log(res.data.data);
     window.location.href = res.data.data.url;
   },
   async GoogleCallbackAction(context, { params, router }) {
