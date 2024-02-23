@@ -82,6 +82,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: res.message,
         showConfirmButton: false,
         timer: 1000,
@@ -93,6 +94,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "error",
+        background: "#fff",
         title: error.response.data.message,
         showConfirmButton: false,
         timer: 1000,
@@ -114,6 +116,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: res.message,
         showConfirmButton: false,
         timer: 1000,
@@ -156,6 +159,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: data.message,
         showConfirmButton: false,
         timer: 1000,
@@ -167,6 +171,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error,
         showConfirmButton: true,
       });
@@ -198,6 +203,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: data.message,
         showConfirmButton: false,
         timer: 1000,
@@ -209,6 +215,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "error",
+        background: "#fff",
         title: error.response.data.message,
         showConfirmButton: false,
         timer: 1000,
@@ -229,6 +236,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: data.message,
         showConfirmButton: false,
         timer: 1000,
@@ -240,6 +248,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         title: error.response.data.message,
         showConfirmButton: true,
       });
@@ -253,6 +262,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.message,
         showConfirmButton: true,
       });
@@ -275,6 +285,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: res.message,
         showConfirmButton: false,
         timer: 1000,
@@ -285,6 +296,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.message,
         showConfirmButton: true,
       });
@@ -319,6 +331,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.errors,
         showConfirmButton: true,
       });
@@ -342,6 +355,7 @@ const actions = {
       Swal.fire({
         position: "bottom-start",
         icon: "success",
+        background: "#fff",
         title: "success",
         showConfirmButton: false,
         timer: 1000,
@@ -352,6 +366,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.errors,
         showConfirmButton: true,
       });
@@ -369,6 +384,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.errors,
         showConfirmButton: true,
       });

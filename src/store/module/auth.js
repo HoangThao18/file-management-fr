@@ -49,6 +49,7 @@ const actions = {
     } catch (error) {
       Swal.fire({
         icon: "error",
+        background: "#fff",
         text: error.response.data.errors,
         showConfirmButton: true,
       });
@@ -96,7 +97,7 @@ const actions = {
         Swal.fire({
           title: "success",
           icon: "success",
-          background: "#fff ",
+          background: "#fff",
           confirmButtonColor: "#3085d6",
           confirmButtonText: "OK",
         }).then((result) => {

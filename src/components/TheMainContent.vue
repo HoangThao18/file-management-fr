@@ -186,6 +186,7 @@ export default {
       Swal.fire({
         title: "Are you sure to move to trash selected file?",
         icon: "warning",
+        background: "#fff",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
@@ -195,6 +196,7 @@ export default {
           if (fileListSelected.length <= 0 && folderListSelected.length <= 0) {
             Swal.fire({
               icon: "error",
+              background: "#fff",
               text: "No file selected",
               showConfirmButton: true,
             });
@@ -225,6 +227,7 @@ export default {
       Swal.fire({
         title: "Are you sure to delete permanently selected file?",
         icon: "warning",
+        background: "#fff",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
@@ -234,6 +237,7 @@ export default {
           if (fileListSelected.length <= 0 && folderListSelected.length <= 0) {
             Swal.fire({
               icon: "error",
+              background: "#fff",
               text: "No file selected",
               showConfirmButton: true,
             });
@@ -254,6 +258,7 @@ export default {
       if (fileListSelected.length <= 0 && folderListSelected.length <= 0) {
         Swal.fire({
           icon: "error",
+          background: "#fff",
           text: "No file selected",
           showConfirmButton: true,
         });
@@ -275,6 +280,7 @@ export default {
       Swal.fire({
         title: "Are you sure to restore selected file?",
         icon: "warning",
+        background: "#fff",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
