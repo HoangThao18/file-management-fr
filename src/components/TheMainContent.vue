@@ -300,7 +300,7 @@ export default {
       if (fileListSelected.length <= 0 && folderListSelected.length <= 0) {
         linkShare.value = "";
       } else {
-        let url = "http://localhost:8080/share/";
+        let url = "https://fileharbor.netlify.app/share/";
         linkShare.value = url;
         fileListSelected.map((file) => {
           linkShare.value += file.token_share + ",";
